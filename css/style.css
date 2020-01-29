@@ -13,6 +13,10 @@
     border: solid black 3px;
 }
 
+.parallax{
+    height: 250px;
+}
+
 .center {
     display: flex;
     flex-direction: column;
