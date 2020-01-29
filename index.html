@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grant Jackson</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="/css/style.css" type="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body class="">
+    <!-- <div class="navbar-fixed"> -->
+        <nav class="grey darken-1">
+            <div class="nav-wrapper container ">
+                <!-- <a href="#!" class="brand-logo"><i class="medium material-icons">album</i></a> -->
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html"><i class="material-icons">apps</i></a></li>
+                    <li><a href="badges.html"><i class="material-icons">desktop_windows</i></a></li>
+                    <li><a href="collapsible.html"><i class="material-icons">headset</i></a></li>
+                    <li><a href="mobile.html"><i class="material-icons">priority_high</i></a></li>
+                </ul>
+            </div>
+        </nav>
+    <!-- </div> -->
+    
+    <div class="section white">
+        <div class="row container col align-self-center nameSection">
+            <img id='grantPic' class="circle" src="images/Grant.jpg">
+            <h1 class="">Grant Jackson</h1>
+            <p class="grey-text text-darken-3">Coffee, Food, Coding</p>
+        </div>
+    </div>
+   
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/coffee.jpg"></div>
+    </div>
+    
+  <div class=""></div>
+    <div class="white">
+        <div class="row justify-content-center">
+            <h1 class="header center-align">Methods()</h1>
+        </div>
+        <div class="row justify-content-center">
+          <p class="">This section has a bunch of javascript methods that can be used on a daily basis.
+        </div>
+   
+        <div class="container border row">
+            <h1 class="col-2 header offset-3 center-align border">Map()</h1>
+            <div class="">
+              <figure class="border offset-2 col-12 grey lighten-3">
+                <pre>
+                  <code class="">
+const array = [0,1,2,3,4,5,6,7,8,9]
+
+const double = array.map(function(num){
+    return num * 2
+})
+
+or
+
+const doubled = map(array, element => element * 2)                          
+
+console.log(doubled);
+                  </code>
+                </pre>
+              </figure>
+            </div>
+        </div> 
+    
+        <div class="container border row">
+          <h1 class="col-2 header offset-3 center-align border">.filter()</h1>
+          <div class="">
+            <figure class="border offset-2 col-12 grey lighten-3">
+              <pre>
+                <code class="">
+const array = [0,1,2,3,4,5,6,7,8,9]
+
+const primeNumbers = array.filter(function(num){
+    if (num % 2 !== 0) {
+        return num
+    }
+})
+
+or
+
+var evenNumbers = filter(numbers, currentElement => currentElement % 2 ===0)
+                        </code>
+                    </pre>
+                </figure>
+                </div>
+            </div>
+    </div>
+  </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/basil.jpg"></div>
+    </div>
+
+    <div class="container">
+      <h2 class="header">Hangman</h2>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="images/hangman.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>Hangman game writen in javascript where you get to guess the steets of Austin.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="header">RPG</h2>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="images/rpg.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>Starwars RPG game where you can select a character and challenge others. Don't discount doging.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://gej15.github.io/rpgGame/">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="header">Trivia Game</h2>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="images/trivia.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="header">Music App</h2>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="images/wave.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="header">Rock Paper Sissors</h2>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="images/rockpaper.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="header">Liri Bot</h2>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="images/liribot.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="header">Friend Finder</h2>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="images/widgit.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems, {});
+    });
+    </script>
+</body>
+</html>
