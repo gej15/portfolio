@@ -9,32 +9,39 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="/css/style.css" type="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
 
 </head>
 <body class="">
     <!-- <div class="navbar-fixed"> -->
         <nav class="grey darken-1">
-            <div class="nav-wrapper container ">
-                <!-- <a href="#!" class="brand-logo"><i class="medium material-icons">album</i></a> -->
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html"><i class="material-icons">apps</i></a></li>
-                    <li><a href="badges.html"><i class="material-icons">desktop_windows</i></a></li>
-                    <li><a href="collapsible.html"><i class="material-icons">headset</i></a></li>
-                    <li><a href="mobile.html"><i class="material-icons">priority_high</i></a></li>
-                </ul>
-            </div>
+          
+            
         </nav>
     <!-- </div> -->
     
     <div class="section white">
         <div class="row container col align-self-center nameSection">
             <img id='grantPic' class="circle" src="images/grant.jpg">
-            <h1 class="">Grant Jackson</h1>
+            <h1 class="center">Grant Jackson</h1>
             <p class="grey-text text-darken-3">Coffee, Food, Coding</p>
+            <div>
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-github icon"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                <li>
+                  <a href="#"><i class="fas fa-envelope icon"></i></a></li>
+              </ul>
+            </div>
         </div>
+        
     </div>
-   
+    
+
     <div class="parallax-container">
         <div class="parallax"><img src="images/coffee.jpg"></div>
     </div>
@@ -45,15 +52,15 @@
             <h1 class="header center-align">Methods()</h1>
         </div>
         <div class="row justify-content-center">
-          <p class="smaller margin"> This section has a bunch of javascript methods that can be used on a daily basis.
+          <p class="smaller margin padding"> This section has a bunch of javascript methods that can be used on a daily basis.
         </div>
    
         <div class="container border row">
-            <h1 class="col-lg-2 header offset-3 center-align border">Map()</h1>
+            <h1 class="col-lg-2 header offset-3 center-align border">.map()</h1>
             <div class="">
-              <figure class="border offset-lg-2 offset-sm-1 col-12 grey lighten-3">
+              <figure class="border offset-lg-2 offset-sm-1 col-12 grey lighten-3 overflow">
                 <pre>
-                  <code class="">
+                  <code class="overflow">
 const array = [0,1,2,3,4,5,6,7,8,9]
 
 const double = array.map(function(num){
@@ -74,9 +81,9 @@ console.log(doubled);
         <div class="container border row">
           <h1 class="col-2 header offset-3 center-align border">.filter()</h1>
           <div class="">
-            <figure class="border offset-2 col-12 grey lighten-3">
+            <figure class="border offset-2 col-12 grey lighten-3 overflow">
               <pre>
-                <code class="">
+                <code class="overflow">
 const array = [0,1,2,3,4,5,6,7,8,9]
 
 const primeNumbers = array.filter(function(num){
@@ -87,7 +94,7 @@ const primeNumbers = array.filter(function(num){
 
 or
 
-var evenNumbers = filter(numbers, currentElement => currentElement % 2 ===0)
+const evenNumbers = filter(numbers, currentElement => currentElement % 2 === 0)
                         </code>
                     </pre>
                 </figure>
@@ -100,125 +107,76 @@ var evenNumbers = filter(numbers, currentElement => currentElement % 2 ===0)
         <div class="parallax"><img src="images/basil.jpg"></div>
     </div>
 
-    <div class="container">
-      <h2 class="header">Hangman</h2>
-      <div class="card horizontal">
-        <div class="card-image">
-          <img src="images/hangman.jpg">
-        </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <p>Hangman game writen in javascript where you get to guess the steets of Austin.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
+    <div>
+      <h1 class="center-align">Projects</h1>
+    </div>
+    
+
+    <div class="card">
+      <div class="front">
+        <img src="/images/outcache.jpg" alt="">
+      </div>
+      <div class="back">
+        <div class="back-content middle">
+          <h2>Outcache</h2>
+          <p>Peer 2 peer outdoor equipment rental site</p>
+          <p>Writen in MERN stack</p>
+          <div class="sm">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-desktop"></i></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <h2 class="header">RPG</h2>
-      <div class="card horizontal">
-        <div class="card-image">
-          <img src="images/rpg.jpg">
-        </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <p>Starwars RPG game where you can select a character and challenge others. Don't discount doging.</p>
-          </div>
-          <div class="card-action">
-            <a href="https://gej15.github.io/rpgGame/">This is a link</a>
+    <div class="card">
+      <div class="front">
+        <img src="/images/laterlist.jpg" alt="">
+      </div>
+      <div class="back">
+        <div class="back-content middle">
+          <h2>Later List</h2>
+          <p>Website to save a list of media to watch or listen to later</p>
+          <p>Writen in Javascript, Node.js, and using Mysql as a database</p>
+          <div class="sm">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-desktop"></i></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <h2 class="header">Trivia Game</h2>
-      <div class="card horizontal">
-        <div class="card-image">
-          <img src="images/trivia.jpg">
-        </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
+    <div class="card">
+      <div class="front">
+        <img src="/images/musicapp.jpg" alt="">
+      </div>
+      <div class="back">
+        <div class="back-content middle">
+          <h2>Music App</h2>
+          <p>BandsInTown Clone</p>
+          <p>Writen in Javascript with jQuery</p>
+          <p>Bands In Town API key expires every 3 months</p>
+          <div class="sm">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-desktop"></i></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <h2 class="header">Music App</h2>
-      <div class="card horizontal">
-        <div class="card-image">
-          <img src="images/wave.jpg">
-        </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-          </div>
-        </div>
-      </div>
+    <div>
+      <h1 class="center-align">Assignments</h1>
     </div>
 
-    <div class="container">
-      <h2 class="header">Rock Paper Sissors</h2>
-      <div class="card horizontal">
-        <div class="card-image">
-          <img src="images/rockpaper.jpg">
+    <footer class="page-footer">
+      
+        <div class="container">
+        © 2020 Copyright 
+        <br>
+        <br>
         </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <h2 class="header">Liri Bot</h2>
-      <div class="card horizontal">
-        <div class="card-image">
-          <img src="images/liribot.jpg">
-        </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <h2 class="header">Friend Finder</h2>
-      <div class="card horizontal">
-        <div class="card-image">
-          <img src="images/widgit.jpg">
-        </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
+      
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
