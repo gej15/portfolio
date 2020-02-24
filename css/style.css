@@ -24,8 +24,8 @@ body{
 .logoImgDiv {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
-    grid-gap: 3rem;
-    grid-auto-rows: minmax(1fr);
+    grid-gap: 2rem;
+    grid-auto-rows: repeat(auto-fit, minmax(1fr 1fr, 1fr 1fr));
 } 
 
 .border {
