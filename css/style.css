@@ -191,11 +191,11 @@ body{
   }
   
   ul li:nth-child(1) a:before{
-    background: #4078c0;
+    background: #313335;
   }
   
   ul li:nth-child(2) a:before{
-    background: #313335;
+    background: #4078c0;
   }
   
   ul li:nth-child(3) a:before {
